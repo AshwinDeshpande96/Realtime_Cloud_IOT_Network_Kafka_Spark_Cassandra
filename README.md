@@ -10,4 +10,5 @@ For this project the data source is a simulated IOT device that produce mock dat
 * A Cassandra Cluster is created which consists of a Keyspace named ***weather_keyspace***. Apache Spark authenticates acceess with Apache Cassandra using SigV4 service.
   * All data is stored in a table called "weather" with columns uuid, device, temp, humd, pres.
 
+## Project Architecture
 ![Network Architecture](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/blob/main/Realtime_IOT.jpg)
