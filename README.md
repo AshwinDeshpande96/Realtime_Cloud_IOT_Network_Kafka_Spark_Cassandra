@@ -15,4 +15,4 @@ For this project the data source is a simulated IOT device that produce mock dat
 
 
 ## IOT Device
-IOT device is a [python file](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/iot_devices.py) that produces random temperature, humidity and pressure data with its timestamp. 
+IOT device is a [python file](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/blob/main/iot_devices.py) that produces random temperature, humidity and pressure data with its timestamp. 
