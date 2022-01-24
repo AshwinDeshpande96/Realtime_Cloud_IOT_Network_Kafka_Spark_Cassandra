@@ -1,5 +1,5 @@
 # IOT Real Time Data Pipeline Simulation
-AWS Implementation of a realtime iot data processing system that is scalable to user requests
+AWS Implementation of a scalable realtime iot data processing system.
 
 This project simulates a data streaming pipeline. The goal is to connect a source which produce data and send it to a database in real time. To enable scalability in terms of traffic we employ a event-driven streaming service called ***Apache Kafka*** and further onto ***Apache Spark*** to consume, process and send data for storage in a ***Cassandra*** No-SQL Database.
 
