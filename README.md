@@ -35,11 +35,11 @@ Spark consumes this data in batches collected over 5 seconds gap. Data belonging
 
 [Code](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/tree/main/SparkConsumer)
 ```
-boston,61.7797229081807836,63.168529288495833,1011.0783619856653
-chicago,19.928433974363053,112.10114230870239,1022.7228939329708
-denver,50.78587612832175,53.280923663318866,1017.201365969265
+boston,61.7797229081807836,63.168529288495833,1011.0783619856653,2222fe2a-f9bd-4763-b31b-ebd97d9180e3
+chicago,19.928433974363053,112.10114230870239,1022.7228939329708,435139b9-63db-4158-8501-c37948f114d0
+denver,50.78587612832175,53.280923663318866,1017.201365969265,283b64a0-d8d2-491a-8526-316ff0668367
 ```
 
 ## Apache Cassandra
 Finally data is stored in a database:
-![weather table in Cassandra DB](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/blob/main/cass_db.jpg)
+![weather table in Cassandra DB](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/blob/main/cass_db.png)
