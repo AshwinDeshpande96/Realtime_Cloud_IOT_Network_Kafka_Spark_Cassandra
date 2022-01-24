@@ -1,4 +1,4 @@
-name := "Cassandra Reader"
+name := "WeatherReader"
 version := "1.0"
 scalaVersion := "2.12.10"
 libraryDependencies += "software.aws.mcs" % "aws-sigv4-auth-cassandra-java-driver-plugin" % "4.0.3"
