@@ -6,7 +6,7 @@ import com.datastax.oss.driver.api.core.CqlSession
 
 import scala.jdk.CollectionConverters._
 
-object SampleConnectionWithSigv4 {
+object WeatherReader {
 
   // This code uses the configuration present in ./resources/application.conf
   // and the AWS default credential chain.
