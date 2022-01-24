@@ -32,7 +32,7 @@ Kafka is open to receive the data produces by different devices. All of the data
 ```
 ## Apache Spark
 Spark consumes this data in batches collected over 5 seconds gap. Data belonging to each IOT device is then grouped and averaged.
-
+[Code](https://github.com/AshwinDeshpande96/Realtime_Cloud_IOT_Network_Kafka_Spark_Cassandra/tree/main/SparkConsumer)
 ```
 boston,61.7797229081807836,63.168529288495833,1011.0783619856653
 chicago,19.928433974363053,112.10114230870239,1022.7228939329708
