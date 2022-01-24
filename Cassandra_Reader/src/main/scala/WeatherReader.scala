@@ -1,16 +1,10 @@
-/*
- * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
- * SPDX-License-Identifier: MIT-0
- */
+
 import com.datastax.oss.driver.api.core.CqlSession
 
 import scala.jdk.CollectionConverters._
 
 object WeatherReader {
 
-  // This code uses the configuration present in ./resources/application.conf
-  // and the AWS default credential chain.
-  // see https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html.
   def main(args: Array[String]): Unit = {
     val resultSet = session.execute("select * from weather_keyspace.weather");
     val rows = resultSet.all().asScala;
